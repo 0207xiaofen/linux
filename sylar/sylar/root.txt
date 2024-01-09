@@ -1,0 +1,64 @@
+2023-12-28 22:54:41	name=class.map description=class person typename=St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE6PersonSt4lessIS5_ESaISt4pairIKS5_S6_EEE value=
+2023-12-28 22:54:41	name=class.person description=class person typename=6Person value=name: ""
+age: 0
+sex: false
+2023-12-28 22:54:41	name=system.str_int_umap description=system str int umap typename=St13unordered_mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4hashIS5_ESt8equal_toIS5_ESaISt4pairIKS5_iEEE value=key: 1
+2023-12-28 22:54:41	name=system.str_int_map description=system str int map typename=St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4lessIS5_ESaISt4pairIKS5_iEEE value=key: 1
+2023-12-28 22:54:41	name=class.vec_map description=class person typename=St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorI6PersonSaIS7_EESt4lessIS5_ESaISt4pairIKS5_S9_EEE value=
+2023-12-28 22:54:41	name=system.int_unordered_set description=system int unordered set typename=St13unordered_setIiSt4hashIiESt8equal_toIiESaIiEE value=- 2
+- 1
+2023-12-28 22:54:41	name=system.int_set description=system int set typename=St3setIiSt4lessIiESaIiEE value=- 1
+- 2
+2023-12-28 22:54:41	name=system.int_list description=system int list typename=NSt7__cxx114listIiSaIiEEE value=- 1
+- 2
+2023-12-28 22:54:41	name=system.int_vec description=system int vec typename=St6vectorIiSaIiEE value=- 1
+- 2
+2023-12-28 22:54:41	name=system.value description=system value typename=f value=10.1999998
+2023-12-28 22:54:41	name=logs description=logs config typename=St3setIN5sylar9LogDefineESt4lessIS1_ESaIS1_EE value=- name: root
+  level: INFO
+  formatter: "%d%T%m%n"
+  appenders:
+    - type: FileLogAppend
+      file: root.txt
+    - type: StdoutLogAppend
+- name: system
+  level: INFO
+  formatter: "%d%T%m%n"
+  appenders:
+    - type: FileLogAppend
+      file: system.txt
+      formatter: "%d%T[%p]%T%m%n"
+    - type: StdoutLogAppend
+2023-12-28 22:54:41	name=system.port description=system port typename=i value=8080
+2023-12-31 15:39:16	name=class.map description=class person typename=St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE6PersonSt4lessIS5_ESaISt4pairIKS5_S6_EEE value=
+2023-12-31 15:39:16	name=class.person description=class person typename=6Person value=name: ""
+age: 0
+sex: false
+2023-12-31 15:39:16	name=system.str_int_umap description=system str int umap typename=St13unordered_mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4hashIS5_ESt8equal_toIS5_ESaISt4pairIKS5_iEEE value=key: 1
+2023-12-31 15:39:16	name=system.str_int_map description=system str int map typename=St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4lessIS5_ESaISt4pairIKS5_iEEE value=key: 1
+2023-12-31 15:39:16	name=class.vec_map description=class person typename=St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorI6PersonSaIS7_EESt4lessIS5_ESaISt4pairIKS5_S9_EEE value=
+2023-12-31 15:39:16	name=system.int_unordered_set description=system int unordered set typename=St13unordered_setIiSt4hashIiESt8equal_toIiESaIiEE value=- 2
+- 1
+2023-12-31 15:39:16	name=system.int_set description=system int set typename=St3setIiSt4lessIiESaIiEE value=- 1
+- 2
+2023-12-31 15:39:16	name=system.int_list description=system int list typename=NSt7__cxx114listIiSaIiEEE value=- 1
+- 2
+2023-12-31 15:39:16	name=system.int_vec description=system int vec typename=St6vectorIiSaIiEE value=- 1
+- 2
+2023-12-31 15:39:16	name=system.value description=system value typename=f value=10.1999998
+2023-12-31 15:39:16	name=logs description=logs config typename=St3setIN5sylar9LogDefineESt4lessIS1_ESaIS1_EE value=- name: root
+  level: INFO
+  formatter: "%d%T%m%n"
+  appenders:
+    - type: FileLogAppend
+      file: root.txt
+    - type: StdoutLogAppend
+- name: system
+  level: INFO
+  formatter: "%d%T%m%n"
+  appenders:
+    - type: FileLogAppend
+      file: system.txt
+      formatter: "%d%T[%p]%T%m%n"
+    - type: StdoutLogAppend
+2023-12-31 15:39:16	name=system.port description=system port typename=i value=8080

@@ -1,0 +1,62 @@
+logs:
+    - name: root
+      level: info
+      appenders:
+          - type: FileLogAppend
+            file: log.txt
+          - type: StdoutLogAppend
+    - name: system
+      level: info
+      appenders:
+          - type: FileLogAppend
+            file: log.txt
+          - type: StdoutLogAppend
+
+system:
+  port: 9900
+  value: 15
+  int_vec:
+    - 10
+    - 30
+  int_list: [20, 40, 50]
+  int_set: [30, 60, 90, 60]
+  int_unordered_set: [28, 29, 28, 45]
+  str_int_map:
+    k: 10
+    k2: 20
+    k3: 30
+  str_int_umap:
+    k: 110
+    k2: 120
+    k3: 130
+
+class:
+  person:
+    name: wangxian
+    age: 21
+    sex: true
+  map:
+    jack:
+      name: jack
+      age: 18
+      sex: true
+    rose:
+      name: rose
+      age: 16
+      sex: false
+  vec_map:
+    k1:
+      - name: zy
+        age: 22
+        sex: false
+      - name: yuyu
+        age: 20
+        sex: false
+    k2:
+      - name: doctor
+        age: 32
+        sex: true
+      - name: profression
+        age: 86
+        sex: true
+

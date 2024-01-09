@@ -1,0 +1,5 @@
+/home/wangxian/program/workspace/sylar/CMakeFiles/sylar.dir
+/home/wangxian/program/workspace/sylar/CMakeFiles/test.dir
+/home/wangxian/program/workspace/sylar/CMakeFiles/test_config.dir
+/home/wangxian/program/workspace/sylar/CMakeFiles/edit_cache.dir
+/home/wangxian/program/workspace/sylar/CMakeFiles/rebuild_cache.dir
