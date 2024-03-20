@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/vector.dir/test/test_vector.cpp.o CMakeFiles/vector.dir/alloc.cpp.o -o ../TEST/vector 

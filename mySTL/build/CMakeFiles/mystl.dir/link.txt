@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libmystl.so -o ../lib/libmystl.so CMakeFiles/mystl.dir/src/algorithm.cpp.o CMakeFiles/mystl.dir/src/alloc.cpp.o 

@@ -9,7 +9,7 @@ class alloc{
 private:
     enum{_ALIGN = 8};  //区块上调边界，也是链表管理的最小内存
     enum{_MAX_BYTES = 128};     //区块管理的内存上限
-    enum{_NUM_LIST = _MAX_BYTES / _ALIGN};      //自由链表个数
+    enum{_NUM_LIST = static_cast<size_t>(_MAX_BYTES) / static_cast<size_t>(_ALIGN)};      //自由链表个数
     enum{_NLIST = 20};  //一次malloc _NLIST个内存块
 private:
     union LIST{     //free_list节点构造，包含指向下一个自由链表的指针和自身数据
