@@ -6,5 +6,5 @@ CXX_DEFINES = -Dmystl_EXPORTS
 
 CXX_INCLUDES = -I/home/wangxian/桌面/up/mySTL/include
 
-CXX_FLAGS = -fPIC -std=gnu++20
+CXX_FLAGS = -g -fPIC -std=gnu++20
 

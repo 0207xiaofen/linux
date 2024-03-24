@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/list.dir/test/test_list.cpp.o CMakeFiles/list.dir/src/alloc.cpp.o -o ../TEST/list 

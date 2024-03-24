@@ -47,5 +47,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/unique.dir/DependInfo.cmake"
   "CMakeFiles/vector.dir/DependInfo.cmake"
   "CMakeFiles/algo.dir/DependInfo.cmake"
+  "CMakeFiles/list.dir/DependInfo.cmake"
   "CMakeFiles/mystl.dir/DependInfo.cmake"
   )

@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/algo.dir/test/test_algo.cpp.o CMakeFiles/algo.dir/src/alloc.cpp.o -o ../TEST/algo 
+/usr/bin/c++ -g CMakeFiles/algo.dir/test/test_algo.cpp.o CMakeFiles/algo.dir/src/alloc.cpp.o -o ../TEST/algo 

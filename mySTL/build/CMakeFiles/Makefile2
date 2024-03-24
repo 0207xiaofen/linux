@@ -67,6 +67,7 @@ all: CMakeFiles/array.dir/all
 all: CMakeFiles/unique.dir/all
 all: CMakeFiles/vector.dir/all
 all: CMakeFiles/algo.dir/all
+all: CMakeFiles/list.dir/all
 all: CMakeFiles/mystl.dir/all
 .PHONY : all
 
@@ -79,6 +80,7 @@ clean: CMakeFiles/array.dir/clean
 clean: CMakeFiles/unique.dir/clean
 clean: CMakeFiles/vector.dir/clean
 clean: CMakeFiles/algo.dir/clean
+clean: CMakeFiles/list.dir/clean
 clean: CMakeFiles/mystl.dir/clean
 .PHONY : clean
 
@@ -115,7 +117,7 @@ CMakeFiles/array.dir/clean:
 CMakeFiles/unique.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unique.dir/build.make CMakeFiles/unique.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unique.dir/build.make CMakeFiles/unique.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wangxian/桌面/up/mySTL/build/CMakeFiles --progress-num=9,10 "Built target unique"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wangxian/桌面/up/mySTL/build/CMakeFiles --progress-num=12,13 "Built target unique"
 .PHONY : CMakeFiles/unique.dir/all
 
 # Build rule for subdir invocation for target.
@@ -141,7 +143,7 @@ CMakeFiles/unique.dir/clean:
 CMakeFiles/vector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wangxian/桌面/up/mySTL/build/CMakeFiles --progress-num=11,12,13 "Built target vector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wangxian/桌面/up/mySTL/build/CMakeFiles --progress-num=14,15,16 "Built target vector"
 .PHONY : CMakeFiles/vector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -187,13 +189,39 @@ CMakeFiles/algo.dir/clean:
 .PHONY : CMakeFiles/algo.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/list.dir
+
+# All Build rule for target.
+CMakeFiles/list.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wangxian/桌面/up/mySTL/build/CMakeFiles --progress-num=6,7,8 "Built target list"
+.PHONY : CMakeFiles/list.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/list.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangxian/桌面/up/mySTL/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/list.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangxian/桌面/up/mySTL/build/CMakeFiles 0
+.PHONY : CMakeFiles/list.dir/rule
+
+# Convenience name for target.
+list: CMakeFiles/list.dir/rule
+.PHONY : list
+
+# clean rule for target.
+CMakeFiles/list.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/clean
+.PHONY : CMakeFiles/list.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/mystl.dir
 
 # All Build rule for target.
 CMakeFiles/mystl.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mystl.dir/build.make CMakeFiles/mystl.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mystl.dir/build.make CMakeFiles/mystl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wangxian/桌面/up/mySTL/build/CMakeFiles --progress-num=6,7,8 "Built target mystl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wangxian/桌面/up/mySTL/build/CMakeFiles --progress-num=9,10,11 "Built target mystl"
 .PHONY : CMakeFiles/mystl.dir/all
 
 # Build rule for subdir invocation for target.

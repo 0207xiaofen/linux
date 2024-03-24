@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.22)
 project(myStl)
 set(CMAEK_CXX_STANDARD 20)
+set(CMAKE_BUILD_TYPE Debug)
 
 #[[set(SRC_ARR test_array.cpp)
 add_executable(array ${SRC_ARR})
@@ -27,6 +28,7 @@ add_executable(array ${SRC_test}/test_array.cpp)
 add_executable(unique ${SRC_test}/test_unique_ptr.cpp)
 add_executable(vector ${SRC_test}/test_vector.cpp ${SRC_alloc})
 add_executable(algo ${SRC_test}/test_algo.cpp  ${SRC_alloc})
+add_executable(list ${SRC_test}/test_list.cpp ${SRC_alloc})
 
 set(LIBRARY_OUTPUT_PATH /home/wangxian/桌面/up/mySTL/lib)
 add_library(mystl SHARED ${src})

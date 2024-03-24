@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/vector.dir/test/test_vector.cpp.o CMakeFiles/vector.dir/src/alloc.cpp.o -o ../TEST/vector 
+/usr/bin/c++ -g CMakeFiles/vector.dir/test/test_vector.cpp.o CMakeFiles/vector.dir/src/alloc.cpp.o -o ../TEST/vector 

@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/unique.dir/test/test_unique_ptr.cpp.o -o ../TEST/unique 
+/usr/bin/c++ -g CMakeFiles/unique.dir/test/test_unique_ptr.cpp.o -o ../TEST/unique 

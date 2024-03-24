@@ -169,6 +169,19 @@ algo/fast:
 .PHONY : algo/fast
 
 #=============================================================================
+# Target rules for targets named list
+
+# Build rule for target.
+list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 list
+.PHONY : list
+
+# fast build rule for target.
+list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/build
+.PHONY : list/fast
+
+#=============================================================================
 # Target rules for targets named mystl
 
 # Build rule for target.
@@ -212,6 +225,7 @@ src/alloc.o: src/alloc.cpp.o
 src/alloc.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/src/alloc.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/src/alloc.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/src/alloc.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mystl.dir/build.make CMakeFiles/mystl.dir/src/alloc.cpp.o
 .PHONY : src/alloc.cpp.o
 
@@ -222,6 +236,7 @@ src/alloc.i: src/alloc.cpp.i
 src/alloc.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/src/alloc.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/src/alloc.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/src/alloc.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mystl.dir/build.make CMakeFiles/mystl.dir/src/alloc.cpp.i
 .PHONY : src/alloc.cpp.i
 
@@ -232,6 +247,7 @@ src/alloc.s: src/alloc.cpp.s
 src/alloc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/src/alloc.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/src/alloc.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/src/alloc.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mystl.dir/build.make CMakeFiles/mystl.dir/src/alloc.cpp.s
 .PHONY : src/alloc.cpp.s
 
@@ -282,6 +298,30 @@ test/test_array.s: test/test_array.cpp.s
 test/test_array.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/test/test_array.cpp.s
 .PHONY : test/test_array.cpp.s
+
+test/test_list.o: test/test_list.cpp.o
+.PHONY : test/test_list.o
+
+# target to build an object file
+test/test_list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/test/test_list.cpp.o
+.PHONY : test/test_list.cpp.o
+
+test/test_list.i: test/test_list.cpp.i
+.PHONY : test/test_list.i
+
+# target to preprocess a source file
+test/test_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/test/test_list.cpp.i
+.PHONY : test/test_list.cpp.i
+
+test/test_list.s: test/test_list.cpp.s
+.PHONY : test/test_list.s
+
+# target to generate assembly for a file
+test/test_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/test/test_list.cpp.s
+.PHONY : test/test_list.cpp.s
 
 test/test_unique_ptr.o: test/test_unique_ptr.cpp.o
 .PHONY : test/test_unique_ptr.o
@@ -341,6 +381,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... algo"
 	@echo "... array"
+	@echo "... list"
 	@echo "... mystl"
 	@echo "... unique"
 	@echo "... vector"
@@ -356,6 +397,9 @@ help:
 	@echo "... test/test_array.o"
 	@echo "... test/test_array.i"
 	@echo "... test/test_array.s"
+	@echo "... test/test_list.o"
+	@echo "... test/test_list.i"
+	@echo "... test/test_list.s"
 	@echo "... test/test_unique_ptr.o"
 	@echo "... test/test_unique_ptr.i"
 	@echo "... test/test_unique_ptr.s"

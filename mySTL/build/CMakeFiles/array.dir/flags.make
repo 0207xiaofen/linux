@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/wangxian/桌面/up/mySTL/include
 
-CXX_FLAGS = -std=gnu++20
+CXX_FLAGS = -g -std=gnu++20
 

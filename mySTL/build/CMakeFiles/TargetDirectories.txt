@@ -2,6 +2,7 @@
 /home/wangxian/桌面/up/mySTL/build/CMakeFiles/unique.dir
 /home/wangxian/桌面/up/mySTL/build/CMakeFiles/vector.dir
 /home/wangxian/桌面/up/mySTL/build/CMakeFiles/algo.dir
+/home/wangxian/桌面/up/mySTL/build/CMakeFiles/list.dir
 /home/wangxian/桌面/up/mySTL/build/CMakeFiles/mystl.dir
 /home/wangxian/桌面/up/mySTL/build/CMakeFiles/edit_cache.dir
 /home/wangxian/桌面/up/mySTL/build/CMakeFiles/rebuild_cache.dir

@@ -24,7 +24,7 @@ public:
         Alloc::deallocate(p, n * sizeof(T));
     }
     void deallocate(void* p){
-        Alloc::deallocate(p);
+        Alloc::deallocate(p, sizeof(T));
     }
 };
 
